@@ -1,0 +1,87 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+marquee{
+    background-color:blue;
+    padding: 5px;
+    margin: 0px;
+    color: black;
+    font-weight: bold;
+}
+.head{
+    height: 100vh;
+    width:100%;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/674/65/161/farm-farmers-water-drops-rice-wallpaper-preview.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top:0%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 50px 50px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color:red;
+    transition: .3s;
+}
+form input{
+    display: inline-block;
+    width: 100%;
+    padding: 5px 5px 5px 5px;
+    border: 2px solid red;
+    outline: none;
+    border-radius: 30px;
+}
+nav i{
+    color: red;
+    font-size: 25px;
+}
+nav i:hover{
+    transform: scale(1.2);
+}
+.content{
+    position: absolute;
+    top: 35%;
+    left:30%;
+    transform: translate(-50%);
+}
+h1{
+    font-size: 25px;
+    color: white;
+    padding-bottom: 20px;
+}
+p{
+    font-size: 15px;
+    color:black;
+    padding-bottom: 20px;
+}
+.button{
+    background-color:green;
+    color:white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: .4s;
+}
+.button:hover{
+    transform: scale(1.2);
+}
